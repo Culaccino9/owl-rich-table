@@ -15,17 +15,15 @@ $ yarn add owl-rich-table
 ```
 
 ## demo
-- 支持curd
-- 支持宽度拉伸
-- 支持高度自适应
+### 基础功能
+curd + 宽度拉伸 + 高度自适应
 
 ![curd]('https://github.com/Culaccino9/owl-rich-table/blob/master/assets/curd.gif');
 
 
-- 支持redo、undo操作
-
+### redo、undo
 ![redo_undo]('https://github.com/Culaccino9/owl-rich-table/blob/master/assets/redo_undo.gif');
 
-- 支持excel单向复制
 
-![cv]('https://github.com/Culaccino9/owl-rich-table/blob/master/assets/cv.gif');
+### excel单向复制
+![cv]('https://github.com/Culaccino9/owl-rich-table/blob/master/assets/cv.gif?raw=true');
