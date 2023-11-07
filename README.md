@@ -27,3 +27,16 @@ curd + 宽度拉伸 + 高度自适应
 
 ### excel单向复制
 ![cv](https://github.com/Culaccino9/owl-rich-table/blob/master/assets/cv.gif?raw=true)
+
+
+## 未来版本1.1
+
+- 多选表格
+- 合并单元格
+- 双向复制
+
+## 未来版本 +
+
+- 自定义输入框
+- 自定义单元格校验
+- …
