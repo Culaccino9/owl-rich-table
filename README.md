@@ -19,7 +19,7 @@ $ yarn add owl-rich-table
 - 支持宽度拉伸
 - 支持高度自适应
 
-![curd]('https://github.com/Culaccino9/owl-rich-table/blob/master/assets/curd.gif);
+![curd]('https://github.com/Culaccino9/owl-rich-table/blob/master/assets/curd.gif');
 
 
 - 支持redo、undo操作
