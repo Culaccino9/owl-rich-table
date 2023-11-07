@@ -1,0 +1,11 @@
+.action-move-bar-hot {
+  margin-left: -4px;
+  padding-left: 4px;
+  width: 6px;
+}
+
+.action-move-bar-hot .action-move-bar-color {
+  width: 2px;
+  height: 100%;
+  background-color: #006cf9;
+}

@@ -1,0 +1,63 @@
+.rich-table-bar-row {
+  position: absolute;
+  top: 22px;
+  left: 34px;
+  display: flex;
+}
+
+.bar-row-button {
+  position: relative;
+  height: 12px;
+  background-color: #eceeef;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:first-of-type {
+    border-top-left-radius: 10px;
+  }
+
+  &:last-of-type {
+    border-top-right-radius: 10px;
+  }
+
+  &:hover {
+    background-color: #d9dcdf;
+  }
+
+  &:focus {
+    background-color: #ffc3bd;
+    color: #e63c3c;
+
+    .bar-row-button-delete {
+      display: block;
+    }
+  }
+}
+
+.bar-row-button .bar-row-button-delete {
+  position: absolute;
+  left: calc(50% - 10px);
+  top: -26px;
+  display: none;
+  height: 20px;
+  width: 20px;
+  background-color: #ffbbb6;
+  border-radius: 50%;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.rich-table-row-bar-add {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  display: flex;
+}
+
+.rich-table-row-bar-add .row-bar-add-tip-bar {
+  margin-top: 24px;
+  width: 2px;
+  height: 6px;
+  background-color: #006cf9;
+  opacity: 0;
+}

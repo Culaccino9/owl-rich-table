@@ -1,0 +1,52 @@
+.rich-table-bar-col {
+  position: absolute;
+  top: 34px;
+  left: 22px;
+}
+
+.bar-col-button {
+  position: relative;
+  width: 12px;
+  background-color: #eceeef;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #d3d7da;
+  }
+
+  &:focus {
+    background-color: #ffc3bd;
+
+    .bar-col-button-delete {
+      display: block;
+    }
+  }
+
+  &:first-of-type {
+    border-top-left-radius: 10px;
+  }
+
+  &:last-of-type {
+    border-bottom-left-radius: 10px;
+  }
+}
+
+.bar-col-button .bar-col-button-delete {
+  position: absolute;
+  left: -26px;
+  top: calc(50% - 10px);
+  display: none;
+  height: 20px;
+  width: 20px;
+  background-color: #ffbbb6;
+  border-radius: 50%;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.rich-table-col-bar-add {
+  position: absolute;
+  top: 33px;
+  left: 0;
+}

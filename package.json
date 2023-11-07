@@ -1,0 +1,33 @@
+{
+  "name": "owl-rich-table",
+  "version": "1.0.3",
+  "description": "富文本编辑表格，react组件",
+  "keywords": [
+    "react",
+    "react-components",
+    "table",
+    "rich-table"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "unpkg": "dist/rich-table.min.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "scripts": {
+    "build": "father build"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.200"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.21",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "authors": "mail781890163@gmail.com"
+}

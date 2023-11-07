@@ -1,0 +1,82 @@
+.bar-action-add-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  z-index: 99;
+  cursor: pointer;
+
+  &:hover {
+    .bar-action-add-button-icon {
+      width: 22px;
+      height: 22px;
+      background-color: #006cf9;
+    }
+
+    .bar-action-add-button-h,
+    .bar-action-add-button-s {
+      opacity: 1;
+    }
+  }
+
+  &:hover ~ .bar-action-add-button-bar {
+    opacity: 1;
+
+    .row-bar-add-tip-bar {
+      opacity: 1;
+    }
+  }
+}
+
+.bar-action-add-button-icon {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #bbbfc4;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.bar-action-add-button-h {
+  position: absolute;
+  height: 2px;
+  width: 12px;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.bar-action-add-button-s {
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.bar-action-add-button-bar {
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.bar-action-add-button-move-bar {
+  &:hover {
+    cursor: col-resize;
+  }
+}
+
+.bar-action-add-button-row {
+  top: 4px;
+  left: -7px;
+}
+
+.bar-action-add-button-col {
+  top: -7px;
+  left: 8px;
+}
